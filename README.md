@@ -1,1 +1,0 @@
-# NamKiBeom_Sejong
