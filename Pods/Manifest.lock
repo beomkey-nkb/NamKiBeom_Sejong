@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.8.0)
+  - Kanna (4.0.2)
+  - MBCircularProgressBar (0.3.5)
+  - SwiftSoup (1.7.4)
+  - SwiftyJSON (4.2.0)
+  - TextFieldEffects (1.5.1)
+  - XLPagerTabStrip (8.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - Kanna (~> 4.0.0)
+  - MBCircularProgressBar
+  - SwiftSoup
+  - SwiftyJSON (~> 4.0)
+  - TextFieldEffects
+  - XLPagerTabStrip (~> 8.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kanna
+    - MBCircularProgressBar
+    - SwiftSoup
+    - SwiftyJSON
+    - TextFieldEffects
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Kanna: c60b61d72554bf04ed1ee074f9b379855cab4892
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  TextFieldEffects: 7d372f58aeaf9acd9626bbf962680aef926b085d
+  XLPagerTabStrip: 22d4c58200d7c105e0e407ab6bfd01a5d85014be
+
+PODFILE CHECKSUM: c4887f60bb87b9494dc4cb450c374a04cc24a09c
+
+COCOAPODS: 1.6.1
