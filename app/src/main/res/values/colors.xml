@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#A73A3C</color>
+    <color name="colorMain">#FFFFFF</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorSejongRED">#A73A3C</color>
+    <color name="colorTestRed">#D9ADAF</color>
+    <!-- color high light-->
+    <color name="login_button_ripple">#963A3C</color>
+    <color name="all_button_ripple">#737373</color>
+    <color name="test_button_ripple">#A73A3C</color>
+    <color name="gray">#878787</color>
+    <!-- color category-->
+    <color name="color_cat_1">#CC87F8</color>
+    <color name="color_cat_2">#F5D648</color>
+    <color name="color_cat_3">#53B1BC</color>
+    <color name="color_cat_4">#407F2A</color>
+    <!-- color bottomnavi -->
+    <color name="color_navi">#F2F2F2</color>
+</resources>

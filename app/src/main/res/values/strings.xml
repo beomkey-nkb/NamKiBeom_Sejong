@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">세종대학교\n고전독서인증</string>
+    <string name="ID">학번</string>
+    <string name="PW">비밀번호</string>
+    <string name="login_SejongClassic">세종대학교\n고전독서인증</string>
+    <string name="login">로그인</string>
+    <string name="auto_login">자동로그인</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!--메뉴이름-->
+    <string name="navi_1">인증 현황</string>
+    <string name="navi_2">예약 신청</string>
+    <string name="navi_3">도서 검색</string>
+    <string name="navi_4">설정</string>
+    <string name="navi_rank">도서 랭킹</string>
+
+    <string name="rank_det">통과율 랭킹</string>
+
+    <string name="user_hello">홍길동님,\n안녕하세요</string>
+    <!--1번메뉴텍스트-->
+    <string name="cat_tot">고전독서 인증</string>
+
+    <string name="cat_1">서양의역\n사와사상</string>
+    <string name="cat_2">동양의역\n사와사상</string>
+    <string name="cat_3">동서양의\n문학</string>
+    <string name="cat_4">과학사상\t</string>
+
+    <!--1번 도서상세권수-->
+    <string name="cat_cnt">0/0권</string>
+
+
+    <string name="home_text_thisweektest">이번 주 시험 응시 예정</string>
+    <string name="home_text_test_date">2019\-03\-19\n10:00~10:20</string>
+    <string name="home_text_test_info">광108B\n도서명: 실락원</string>
+
+    <string name="text_testinfotitle"><u>고전독서 제목</u></string>
+    <string name="text_testbooktitle">book_name</string>
+    <string name="text_testinfodetail">예약정보</string>
+
+    <string name="text_testinfodetail_1">개설년도/학기</string>
+    <string name="text_testinfodetail_2">일자</string>
+    <string name="text_testinfodetail_3">시간</string>
+    <string name="cancel_test">예약취소</string>
+    <string name="text_setAlarm">시험 1시간 전 알림 설정</string>
+    <string name="blabla">blabla</string>
+    <string name="noalarm">현재 설정된 알림이 없습니다.</string>
+
+
+    <!--1번 Detail -->
+    <string name="text_detail1">영역별 인증</string>
+    <string name="text_detail2">과목 대체 인증</string>
+    <string name="text_detail3">대회 인증</string>
+
+    <!--1번 info -->
+
+    <!--도서목록-->
+
+    <string-array name="book_cat">
+        <item>영역명</item>
+        <item>서양의역사와사상</item>
+        <item>동양의역사와사상</item>
+        <item>동서양의문학</item>
+        <item>과학사상</item>
+    </string-array>
+    <string-array name="book_name_default">
+        <item>도서명</item>
+    </string-array>
+    <string-array name="book_name_seoyang">
+        <!--서양-->
+        <item>도서명</item>
+        <item>플라톤의 국가</item>
+        <item>정치학</item>
+        <item>키케로의 의무론</item>
+        <item>게르마니아</item>
+        <item>성어거스틴의 고백록</item>
+        <item>군주론</item>
+        <item>신기관</item>
+        <item>리바이어던</item>
+        <item>통치론</item>
+        <item>사회계약론</item>
+        <item>공리주의</item>
+        <item>존 스튜어트 밀 자유론</item>
+        <item>체사레 벡카리아의 범죄와 형벌</item>
+        <item>종교의 자연사</item>
+        <item>짜라투스트라는이렇게 말했다</item>
+        <item>프로테스탄티즘의 윤리와 자본주의 정신</item>
+        <item>미국의민주주의 1</item>
+        <item>역사란무엇인가</item>
+        <item>도덕적인간과비도덕적사회</item>
+        <item>성과속</item>
+        <item>소유냐삶이냐</item>
+        <item>국화와칼</item>
+        <item>심리학과 종교</item>
+        <item>슬픈열대</item>
+        <item>자본주의,사회주의,민주주의</item>
+        <item>서양미술사</item>
+        <item>성의역사 1권</item>
+        <item>감시와 처벌</item>
+        <item>로마제국쇠망사</item>
+        <item>역사의 종말</item>
+        <item>종교의 의미와 목적</item>
+        <item>낭만적 거짓과 소설적 진실</item>
+        <item>오래된 미래</item>
+        <item>위험사회</item>
+        <item>황금가지</item>
+        <item>파이돈</item>
+        <item>예루살렘의 아이히만</item>
+        <item>호모루덴스</item>
+    </string-array>
+    <string-array name="book_name_dongyang">
+        <!--동양-->
+        <item>도서명</item>
+        <item>성학십도</item>
+        <item>북학의</item>
+        <item>조선상고사</item>
+        <item>삼국유사</item>
+        <item>논어-슬기바다1</item>
+        <item>맹자-슬기바다2</item>
+        <item>대학,중용-슬기바다3</item>
+        <item>노자의목소리로듣는도덕경</item>
+        <item>장자</item>
+        <item>사기열전1</item>
+        <item>생활의 발견</item>
+        <item>대동서</item>
+        <item>간디 자서전</item>
+        <item>한 젊은 유학자의 초상</item>
+        <item>묵자</item>
+        <item>춘추좌전(상)</item>
+        <item>유배지에서 보낸 편지</item>
+        <item>산해경</item>
+        <item>한비자</item>
+    </string-array>
+    <string-array name="book_name_dong_seo">
+        <!--동서양-->
+        <item>도서명</item>
+        <item>젊은 예술가의 초상</item>
+        <item>구토</item>
+        <item>실락원</item>
+        <item>파우스트</item>
+        <item>일리아스 오디세이아</item>
+        <item>원전으로 읽는 변신이야기</item>
+        <item>인간의 조건</item>
+        <item>양철북</item>
+        <item>페스트</item>
+        <item>카라마조프씨네 형제들</item>
+        <item>안나카레니나</item>
+        <item>백년동안의 고독</item>
+        <item>변신,시골의사</item>
+        <item>타이스,붉은백합</item>
+        <item>열하일기</item>
+        <item>서유견문</item>
+        <item>파한집</item>
+        <item>난중일기</item>
+        <item>천변풍경</item>
+        <item>위대한 유산 1,2</item>
+        <item>닥터지바고</item>
+        <item>변신인형</item>
+        <item>주홍글씨</item>
+        <item>걸리버여행기</item>
+        <item>모비딕</item>
+        <item>마음</item>
+        <item>픽션들</item>
+        <item>농담</item>
+        <item>아버지와 아들</item>
+        <item>삼대</item>
+        <item>적과 흑</item>
+        <item>대위의 딸</item>
+    </string-array>
+    <string-array name="book_name_science">
+        <!--과학사-->
+        <item>도서명</item>
+        <item>프린키피아3(프린키피아:자연과학의 수학적 원리)</item>
+        <item>종의기원</item>
+        <item>부분과 전체</item>
+        <item>과학혁명의 구조</item>
+        <item>카오스</item>
+        <item>코스모스</item>
+        <item>총,균,쇠</item>
+        <item>엔트로피</item>
+        <item>객관성의 칼날</item>
+        <item>같기도 하고 아니 같기도 하고</item>
+    </string-array>
+
+
+    <!--2번메뉴-->
+    <string name="text_classic"><u>대양휴머니티칼리지</u></string>
+    <string name="text_reserv_test">인증 예약 신청</string>
+    <string name="text_select_test_book">한달 내 날짜만 선택 가능, 일주일에 1건만 예약 가능, 주말 예약 불가</string>
+    <string name="datepick">예약일자</string>
+    <string name="text_time">시간: </string>
+    <string name="text_loc">장소: </string>
+    <string name="text_time1000"><b>10:00</b></string>
+    <string name="text_time1020"><b>10:20</b></string>
+    <string name="text_time1040"><b>10:40</b></string>
+    <string name="text_time1100"><b>11:00</b></string>
+    <string name="text_time1120"><b>11:20</b></string>
+    <string name="text_time1140"><b>11:40</b></string>
+    <string name="text_time1400"><b>14:00</b></string>
+    <string name="text_time1420"><b>14:20</b></string>
+    <string name="text_time1440"><b>14:40</b></string>
+    <string name="text_time1500"><b>15:00</b></string>
+    <string name="text_time1520"><b>15:20</b></string>
+    <string name="text_time1540"><b>15:40</b></string>
+    <string name="text_time1600"><b>16:00</b></string>
+    <string name="text_time1620"><b>16:20</b></string>
+    <string name="text_time1640"><b>16:40</b></string>
+
+    <string name="text_test_locaion"><b>광108B</b></string>
+
+    <string name="text_test_inf">예약정보</string>
+
+    <string name="text_name">이름</string>
+    <string name="text_id">학번</string>
+    <string name="text_major">학과</string>
+    <string name="text_book_date">예약일자</string>
+    <string name="text_book_time">응시시간</string>
+    <string name="text_ifyourinfoiscor">정보가 맞다면 아래의 버튼을 클릭해주세요</string>
+    <string name="apply">신청</string>
+    <!--3번메뉴-->
+    <string name="text_library"><u>학술정보원</u></string>
+    <string name="text_library_search">고전도서 검색</string>
+    <string name="text_select_book1">영역명, 도서명 선택</string>
+
+    <string name="text_search_book_name">book_name</string>
+    <string name="text_search_book_result">검색결과</string>
+    <string name="text_search_book_result_loc"><u>소장위치</u></string>
+    <string name="text_search_book_result_num"><u>청구기호</u></string>
+
+
+    <!--4번메뉴-->
+    <string name="profile">name님의 프로필</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomCat">
+        <attr name="bg" format="reference|integer" />
+        <attr name="symbol1" format="reference|string" />
+        <attr name="symbol2" format="reference|string" />
+    </declare-styleable>
+</resources>

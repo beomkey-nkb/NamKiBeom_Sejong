@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:weightSum="4.8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_hellouser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_weight="1"
+            android:paddingStart="20dp"
+            android:text="@string/user_hello"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/img_user"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="1"
+            android:paddingEnd="30dp"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/ic_user" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/det"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="2"
+        android:background="@drawable/ripple_effect_login"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:weightSum="6.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="@string/cat_tot"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/text_stat_tot"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|end"
+                android:text="@string/cat_cnt"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="3.5">
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <com.github.lzyzsd.circleprogress.ArcProgress
+                android:id="@+id/arc_progress"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+
+                custom:arc_angle="270"
+                custom:arc_bottom_text=""
+                custom:arc_finished_color="#ffffff"
+                custom:arc_progress="60"
+                custom:arc_stroke_width="13dp"
+                custom:arc_suffix_text=" "
+                custom:arc_text_color="#ffffff"
+                custom:arc_text_size="50sp"
+                custom:arc_unfinished_color="#000000" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.seosj.classicbook.CustomCategory
+                android:id="@+id/customcat1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:bg="@drawable/ripple_effect_categorybook1"
+                app:symbol1="@string/cat_1"
+                app:symbol2="@string/cat_cnt" />
+
+            <com.seosj.classicbook.CustomCategory
+                android:id="@+id/customcat2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:bg="@drawable/ripple_effect_categorybook2"
+                app:symbol1="@string/cat_2"
+                app:symbol2="@string/cat_cnt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.seosj.classicbook.CustomCategory
+                android:id="@+id/customcat3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:bg="@drawable/ripple_effect_categorybook3"
+                app:symbol1="@string/cat_3"
+                app:symbol2="@string/cat_cnt" />
+
+            <com.seosj.classicbook.CustomCategory
+                android:id="@+id/customcat4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:bg="@drawable/ripple_effect_categorybook4"
+                app:symbol1="@string/cat_4"
+                app:symbol2="@string/cat_cnt" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/text_thisweektest"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1.5"
+            android:gravity="center|start"
+            android:paddingStart="7dp"
+            android:paddingTop="2dp"
+            android:text="@string/home_text_thisweektest"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/ripple_effect_all"
+            android:clickable="true"
+            android:elevation="5dp"
+            android:overScrollMode="never" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_1"
+        android:icon="@drawable/ic_home"
+        android:title="@string/navi_1" />
+
+    <item
+        android:id="@+id/navigation_2"
+        android:icon="@drawable/ic_reservation"
+        android:title="@string/navi_2" />
+
+    <item
+        android:id="@+id/navigation_3"
+        android:icon="@drawable/ic_search"
+        android:title="@string/navi_3" />
+
+    <item
+        android:id="@+id/navigation_rank"
+        android:icon="@drawable/ic_rank"
+        android:title="@string/navi_rank"/>
+
+    <item
+        android:id="@+id/navigation_4"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/navi_4"/>
+</menu>
